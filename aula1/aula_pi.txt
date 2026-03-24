@@ -1,0 +1,13 @@
+Token é uma ferramenta de segurança para autenticação
+
+1- criar um repositório dentro do GitHub (repositório remoto)
+2- git clone //link do repositório// - clona o repositório na local
+3- entrar no repositório local no gitbash
+4- colocar os arquivos da feitos dentro do repositório local
+5- git add . - adiciona as modificações
+6- git status - vê em que passo eu to
+7- git commit -m "comentário" - commita o que foi feito
+8- git status 
+9- git push - envia pra máquina remota
+
+git pull - pega as alterações do repositório remoto e traz pro local
