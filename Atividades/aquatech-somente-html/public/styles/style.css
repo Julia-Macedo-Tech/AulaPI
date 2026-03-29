@@ -49,6 +49,7 @@ body {
     background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
     height: 500px;
     display: flex;
+    background-size: cover;
 }
 
 .banner .container {
@@ -118,6 +119,7 @@ body {
 
 .login {
     background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
     height: 745px;
     display: flex;
     justify-content: center;
