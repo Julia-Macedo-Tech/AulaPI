@@ -1,0 +1,194 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+/* Tela inicial */
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: #000000;  
+    border-bottom: 7px solid #60b5cb;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: #61aeae;
+    margin-left: 3%;
+}
+
+.agora a{
+    color: #cdaa73;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    margin-left: 40%;
+}
+
+.navbar a {
+    color: #cdaa73;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.navbar li {
+    color: #cdaa73;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.banner {
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+    display: flex;
+}
+
+.banner .container {
+    width: 10%;
+    margin-left: 25%;
+}
+
+.container p {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.container span {
+    font-weight: bold;
+}
+
+.social {
+    background-color: #e5e5e5;
+}
+
+.boxes {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box h4 {
+    color: #f63680;
+    font-size: 20px;
+}
+
+.box img {
+    width: 100px;
+}
+
+.box p {
+    margin-top: -10px;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #60b5cb;
+    color: #ffffff;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.version {
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+/* Tela de login e cadastro */
+
+.login {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 745px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #e5e5e5;
+    width: 700px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    color: #e64d87;
+    font-size: 30px;
+}
+
+.card span {
+    color: #e64d87;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao {
+    background-color: #f63680;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+input {
+    border: 2px solid #60b5cb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 25px;
+    text-align: center;
+}
+
+.campo {
+    margin-top: 10px;
+}
+
+/* Tela simulador */
+
+.simulador {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+}
+
+.simulador .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.simulador .container p {
+    color: #000000;
+}
